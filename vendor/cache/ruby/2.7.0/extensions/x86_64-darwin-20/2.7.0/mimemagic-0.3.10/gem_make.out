@@ -1,0 +1,19 @@
+current directory: /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/mimemagic-0.3.10/ext/mimemagic
+/Users/travismyrick/.rvm/rubies/ruby-2.7.3/bin/ruby -I/Users/travismyrick/.rvm/rubies/ruby-2.7.3/lib/ruby/2.7.0/rubygems -rrubygems /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/extensions/x86_64-darwin-20/2.7.0/mimemagic-0.3.10 RUBYLIBDIR\=/Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/extensions/x86_64-darwin-20/2.7.0/mimemagic-0.3.10
+Ignoring bindex-0.8.1 because its extensions are not built. Try: gem pristine bindex --version 0.8.1
+Ignoring bindex-0.5.0 because its extensions are not built. Try: gem pristine bindex --version 0.5.0
+Ignoring bootsnap-1.16.0 because its extensions are not built. Try: gem pristine bootsnap --version 1.16.0
+Ignoring bootsnap-1.13.0 because its extensions are not built. Try: gem pristine bootsnap --version 1.13.0
+Ignoring byebug-11.1.3 because its extensions are not built. Try: gem pristine byebug --version 11.1.3
+Ignoring byebug-10.0.1 because its extensions are not built. Try: gem pristine byebug --version 10.0.1
+Ignoring date-3.3.3 because its extensions are not built. Try: gem pristine date --version 3.3.3
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5
+Ignoring ffi-1.12.2 because its extensions are not built. Try: gem pristine ffi --version 1.12.2
+Ignoring json-2.6.3 because its extensions are not built. Try: gem pristine json --version 2.6.3
+Ignoring msgpack-1.6.1 because its extensions are not built. Try: gem pristine msgpack --version 1.6.1
+Ignoring msgpack-1.5.6 because its extensions are not built. Try: gem pristine msgpack --version 1.5.6
+Ignoring pg-1.4.6 because its extensions are not built. Try: gem pristine pg --version 1.4.6
+Ignoring pg-1.0.0 because its extensions are not built. Try: gem pristine pg --version 1.0.0
+Ignoring puma-4.3.12 because its extensions are not built. Try: gem pristine puma --version 4.3.12
+Ignoring racc-1.6.0 because its extensions are not built. Try: gem pristine racc --version 1.6.0
+mkdir -p /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/extensions/x86_64-darwin-20/2.7.0/mimemagic-0.3.10/mimemagic
