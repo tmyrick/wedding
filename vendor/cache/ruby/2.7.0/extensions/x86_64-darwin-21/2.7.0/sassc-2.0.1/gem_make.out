@@ -1,0 +1,597 @@
+current directory: /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext
+/Users/travismyrick/.rvm/rubies/ruby-2.7.1/bin/ruby -I/Users/travismyrick/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0/rubygems -rrubygems /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/rake-13.0.1/exe/rake RUBYARCHDIR\=/Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/extensions/x86_64-darwin-21/2.7.0/sassc-2.0.1 RUBYLIBDIR\=/Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/extensions/x86_64-darwin-21/2.7.0/sassc-2.0.1
+cd libsass
+make lib/libsass.so
+mkdir lib
+cc -Wall -O2 -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/cencode.o src/cencode.c
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/ast.o src/ast.cpp
+In file included from src/ast.cpp:2:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/node.o src/node.cpp
+In file included from src/node.cpp:4:
+In file included from src/node.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/context.o src/context.cpp
+In file included from src/context.cpp:9:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/constants.o src/constants.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/functions.o src/functions.cpp
+In file included from src/functions.cpp:2:
+In file included from src/functions.hpp:4:
+In file included from src/listize.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/color_maps.o src/color_maps.cpp
+In file included from src/color_maps.cpp:2:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/environment.o src/environment.cpp
+In file included from src/environment.cpp:2:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/ast_fwd_decl.o src/ast_fwd_decl.cpp
+In file included from src/ast_fwd_decl.cpp:1:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/bind.o src/bind.cpp
+In file included from src/bind.cpp:3:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/file.o src/file.cpp
+In file included from src/file.cpp:23:
+In file included from src/sass_functions.hpp:6:
+In file included from src/functions.hpp:4:
+In file included from src/listize.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/util.o src/util.cpp
+In file included from src/util.cpp:3:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/json.o src/json.cpp
+src/json.cpp:1289:3: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  sprintf(buf, "%.16g", num);
+  ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h:188:1: note: 'sprintf' has been explicitly marked deprecated here
+__deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:215:48: note: expanded from macro '__deprecated_msg'
+        #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+                                                      ^
+1 warning generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/units.o src/units.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/values.o src/values.cpp
+In file included from src/values.cpp:3:
+In file included from src/values.hpp:4:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/plugins.o src/plugins.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/position.o src/position.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/lexer.o src/lexer.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/parser.o src/parser.cpp
+In file included from src/parser.cpp:2:
+In file included from src/parser.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/prelexer.o src/prelexer.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/eval.o src/eval.cpp
+In file included from src/eval.cpp:10:
+In file included from src/eval.hpp:4:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/expand.o src/expand.cpp
+In file included from src/expand.cpp:5:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/listize.o src/listize.cpp
+In file included from src/listize.cpp:6:
+In file included from src/listize.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/cssize.o src/cssize.cpp
+In file included from src/cssize.cpp:6:
+In file included from src/cssize.hpp:4:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/extend.o src/extend.cpp
+In file included from src/extend.cpp:2:
+In file included from src/extend.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/output.o src/output.cpp
+In file included from src/output.cpp:2:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/inspect.o src/inspect.cpp
+In file included from src/inspect.cpp:9:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/emitter.o src/emitter.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/check_nesting.o src/check_nesting.cpp
+In file included from src/check_nesting.cpp:4:
+In file included from src/check_nesting.hpp:4:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/remove_placeholders.o src/remove_placeholders.cpp
+In file included from src/remove_placeholders.cpp:2:
+In file included from src/remove_placeholders.hpp:6:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/sass.o src/sass.cpp
+In file included from src/sass.cpp:11:
+In file included from src/sass_functions.hpp:6:
+In file included from src/functions.hpp:4:
+In file included from src/listize.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/sass_util.o src/sass_util.cpp
+In file included from src/sass_util.cpp:2:
+In file included from src/node.hpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/sass_values.o src/sass_values.cpp
+In file included from src/sass_values.cpp:5:
+In file included from src/eval.hpp:4:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/sass_context.o src/sass_context.cpp
+In file included from src/sass_context.cpp:9:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/sass_functions.o src/sass_functions.cpp
+In file included from src/sass_functions.cpp:5:
+In file included from src/values.hpp:4:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/sass2scss.o src/sass2scss.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/backtrace.o src/backtrace.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/operators.o src/operators.cpp
+In file included from src/operators.cpp:2:
+In file included from src/operators.hpp:4:
+In file included from src/values.hpp:4:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/to_c.o src/to_c.cpp
+In file included from src/to_c.cpp:3:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/to_value.o src/to_value.cpp
+In file included from src/to_value.cpp:2:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/source_map.o src/source_map.cpp
+In file included from src/source_map.cpp:7:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/subset_map.o src/subset_map.cpp
+In file included from src/subset_map.cpp:2:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/error_handling.o src/error_handling.cpp
+In file included from src/error_handling.cpp:2:
+src/ast.hpp:1614:25: warning: loop variable 'numerator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto numerator : numerators)
+                        ^
+src/ast.hpp:1614:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto numerator : numerators)
+             ^~~~~~~~~~~~~~~~~~~~~~
+                        &
+src/ast.hpp:1616:25: warning: loop variable 'denominator' creates a copy from type 'const std::string' [-Wrange-loop-construct]
+        for (const auto denominator : denominators)
+                        ^
+src/ast.hpp:1616:14: note: use reference type 'const std::string &' to prevent copying
+        for (const auto denominator : denominators)
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &
+2 warnings generated.
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/memory/SharedPtr.o src/memory/SharedPtr.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/utf8_string.o src/utf8_string.cpp
+c++ -Wall -O2 -std=c++0x -I /Users/travismyrick/dutchie/wedding/vendor/cache/ruby/2.7.0/gems/sassc-2.0.1/ext/libsass/include -stdlib=libc++ -fPIC -fPIC -c -o src/base64vlq.o src/base64vlq.cpp
+c++ -shared -Wall -O2 -Wl,-undefined,error -std=c++0x -stdlib=libc++ -ldl -fPIC -fPIC -o lib/libsass.so src/cencode.o src/ast.o src/node.o src/context.o src/constants.o src/functions.o src/color_maps.o src/environment.o src/ast_fwd_decl.o src/bind.o src/file.o src/util.o src/json.o src/units.o src/values.o src/plugins.o src/position.o src/lexer.o src/parser.o src/prelexer.o src/eval.o src/expand.o src/listize.o src/cssize.o src/extend.o src/output.o src/inspect.o src/emitter.o src/check_nesting.o src/remove_placeholders.o src/sass.o src/sass_util.o src/sass_values.o src/sass_context.o src/sass_functions.o src/sass2scss.o src/backtrace.o src/operators.o src/to_c.o src/to_value.o src/source_map.o src/subset_map.o src/error_handling.o src/memory/SharedPtr.o src/utf8_string.o src/base64vlq.o -lm -lstdc++ -ldl
+cd -
